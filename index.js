@@ -2,6 +2,7 @@ function even(a) { // ֆունկցիա որը վերադարձնում է իրե
     if(typeof(a) == "number") { // ստուգում ենք, a - ն թիվ է թե ոչ
         if(a % 2 == 0) { // եթե թիվ է և եթե զույգ է
             alert("Number is even"); // տպում ենք որ զույգ է
+            alert("Now check your console"); // ստուգեք ձեր console - ը
             console.log("There are several other even numbers before this number " + a); // հիմա տպում ենք թե a - ից առաջ քանի զույգ թիվ կա
             for(let i = 1; i < a; i++) {
                 if(i % 2 == 0) {
@@ -10,6 +11,7 @@ function even(a) { // ֆունկցիա որը վերադարձնում է իրե
             }
         } else { // եթե թիվ է բայց զույգ չէ
             alert("Number is odd"); // տպում ենք որ կենտ է
+            alert("Now check your console"); // ստուգեք ձեր console - ը
             console.log("There are several other odd numbers before number " + a); // հիմա տպում ենք թե a - ից առաջ քանի կենտ թիվ կա
             for(let i = 1; i < a; i++) {
                 if(i % 2 !== 0) {
